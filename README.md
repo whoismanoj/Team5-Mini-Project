@@ -1,7 +1,5 @@
 # Mini-Project-
 
-project_HBD(All).ipynb is the original ipynb done by SC1015 PT1 Group 5. In it contain all the methods, trials and other ideas that we plan to do. We decided to break into 
-
 The project_HBD_EDA.ipynb is for us to have a better visualisation of the data before we start to decide which variables we want to remove. 
 
 project_HBD(Final).ipynb is the training models we test and use for our problem. We first use linear regression to train with 75% of the dataset and 25% to as test of the dataset. 
