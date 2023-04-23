@@ -6,7 +6,7 @@ The project_HBD_EDA.ipynb is for us to have a better visualisation of the data b
 
 project_HBD(Final).ipynb is the training models we test and use for our problem. We first use linear regression to train with 75% of the dataset and 25% to as test of the dataset. 
 
-The dataset we use are from https://data.gov.sg/dataset/resale-flat-prices, ranging from 1990 to 2023 Apri, totaling up to 895319 data pointers. The dataset excel file we compile and use is too big to fit onto github. Therefore the excel files will be spilt into the years that were provided by the website. The file of 2000 year to 2012 year could not be uploaded to github due to size limit.
+The dataset we use are from https://data.gov.sg/dataset/resale-flat-prices, ranging from 1990 to 2023 Apri, totaling up to 895319 data pointers. The dataset excel file we compile and use is too big to fit onto github. Therefore the excel files will be spilt into the years that were provided by the website. The file of 2000 year to 2012 year could not be uploaded to github due to size limit. And we use OneMap API https://www.onemap.gov.sg/docs/#onemap-rest-apis to get the Lat and Long for all address in the dataset.
 
 We start of with our problem definition, which is to predict the housing resale price based on a few factors from the dataset such as: 1) Accessibility; 2) Remaining lease years; 3) Distance to town and 4) Flat type.
 
